@@ -1,10 +1,10 @@
 exercicio 1 
 // digite 3 notas e faça a média entre elas.
 
-let nota1 = parseFloat(prompt('Digite a 1ª nota'));
-let nota2 = parseFloat(prompt('Digite a 2ª nota'));
-let nota3 = parseFloat(prompt('Digite a 3ª nota'));
+const nota1 = Number(prompt('Digite a 1ª nota'));
+const nota2 = Number(prompt('Digite a 2ª nota'));
+const nota3 = Number(prompt('Digite a 3ª nota'));
 
-let media = (nota1 + nota2 + nota3) / 3;
+const media = (nota1 + nota2 + nota3) / 3;
 
 alert(media);
