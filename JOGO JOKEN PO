@@ -3,40 +3,39 @@ exercicio 2 pedra,papel e tesoura
 //JOGO JOKEN PÔ
 
 
-        j1 = prompt('gamer1: Digite pedra, papel ou tesoura');
-        j2 = prompt('gamer2: Digite pedra, papel ou tesoura');
+        g1 = prompt('gamer1: Digite pedra, papel ou tesoura');
+        g2 = prompt('gamer2: Digite pedra, papel ou tesoura');
 
-        if (j1 == 'pedra') {
-            if (j2 == 'tesoura') {
+        if (g1 == 'pedra') {
+            if (g2 == 'tesoura') {
                 alert ('Pedra esmaga tesoura');
-            } else if (j2 == 'papel'){
+            } else if (g2 == 'papel'){
                 alert ('Papel embrulha a Pedra');
-            } else if (j2 == 'pedra') {
+            } else if (g2 == 'pedra') {
                 alert ('Vocês Empataram');
             }
         }
-        else if (jogador1 == 'tesoura') {
-            if (jogador2 == 'pedra') {
+        else if (g1 == 'tesoura') {
+            if (g2 == 'pedra') {
                 alert ('Pedra esmaga tesoura');
                   alert('joguem novamente')
-            } else if (jogador2 == papel){
+            } else if (g2 == papel){
                 alert ('tesoura corta papel');
-            } else if (jogadoe2 == 'tesoura') {
+            } else if (g2 == 'tesoura') {
                 alert ('Vocês Empataram');
                  alert('joguem novamente')
             }
         }
-        else if (jogador1 == 'papel'){
-            if (jogador2 == 'pedra') {
+        else if (g1 == 'papel'){
+            if (g2 == 'pedra') {
                 alert ('Papel embrulha pedra');
-            }else if (jogador2 == 'tesoura') {
+            }else if (g2 == 'tesoura') {
                 alert ('Tesoura corta papel');
                      alert('joguem novamente')
-            }else if (jogador2 == 'papel')  {
+            }else if (g2 == 'papel')  {
                 alert ('Vocês Empataram');
                    alert('joguem novamente')
             }
 
         }
 
-    }
