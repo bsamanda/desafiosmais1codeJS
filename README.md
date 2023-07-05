@@ -1,5 +1,5 @@
 exercicio 1 
-
+// digite 3 notas e faça a média entre elas.
 
 let nota1 = parseFloat(prompt('Digite a 1ª nota'));
 let nota2 = parseFloat(prompt('Digite a 2ª nota'));
